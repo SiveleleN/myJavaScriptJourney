@@ -52,10 +52,78 @@
 
 // B. Task 2:Data Types
 // 1. Define the following data types with your own contents[ 'integer', 'decimal', 'string', 'array'(minimum: 3 items), 'Object'(minimum: 4 values)]
+     Integer: '30','10','85'
+
+     Decimal: '3.85','9.66','25.3'
+
+     String: "Collen", "1288", 
+
+     Array: '["car","table","radio"]'
+             '[1,2,3]'
+
+     object: {
+        "name": "John Doe",
+        "age": 30,
+        "city": "New York",
+        "isStudent": false
+          }
 // 2. Once you’ve created the variables, display them to the console
+      
+    var integer = 42;
+     var decimal = 3.14;
+    var string = "Hello, World!";
+    var array = ["car", "table", "radio"];
+     var object = {
+    "name": "John Doe",
+    "age": 30,
+    "city": "New York",
+    "isStudent": false
+           };
+
+
+    console.log("Integer:", integer);
+    console.log("Decimal:", decimal);
+    console.log("String:", string);
+    console.log("Array:", array);
+    console.log("Object:", object);
+
+      
 // 3. Use the ‘typeof’ function to check each variable
+     let numberVariable = 42;
+     let stringVariable = "Hello, world!";
+     let booleanVariable = true;
+     let objectVariable = { key: "value" };
+     let arrayVariable = [1, 2, 3];
+     let functionVariable = function() { return "I'm a function"; };
+     let undefinedVariable;
+     let nullVariable = null;
+
+     console.log(typeof numberVariable); 
+     console.log(typeof stringVariable); 
+     console.log(typeof booleanVariable); 
+     console.log(typeof objectVariable); 
+     console.log(typeof arrayVariable); 
+     console.log(typeof functionVariable); 
+     console.log(typeof undefinedVariable);
+     console.log(typeof nullVariable); 
+
 // 4. Create an array with numbers and strings. Comment what data type you expect this tobe. Then use the ‘typeof’ function on this array
+    let mixedArray = [66, "Picture", 18.5, "JavaScript"];
+
+    console.log(typeof mixedArray); // Outputs: "object"
+
+// Check the data type of each element in the array
+    mixedArray.forEach((element, index) => {
+    console.log(`Element at index ${index} is of type: ${typeof element}`);
+    });
+
 // 5. Create a null variable and an undefined variable
+     let nullVariable = null;
+     let undefinedVariable;
+
+     console.log(nullVariable); 
+     console.log(undefinedVariable); 
+
 
 // ***********C. Task 3. functions and contional statements************
 // N.B. READ WITH UNDERSTANDING!!!
